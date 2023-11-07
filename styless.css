@@ -1,0 +1,23 @@
+/* styles.css */
+#fenetre {
+    width: 300px;
+    height: 0;
+    overflow: hidden;
+    background-color: #f0f0f0;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: height 0.5s;
+}
+
+#fenetre.ouverte {
+    height: 200px; /* Hauteur souhaitée */
+}
+
+#fermerFenetre {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}

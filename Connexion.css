@@ -1,0 +1,46 @@
+body {
+    background-image: url('mur.jpeg'); /* Remplacez 'votre-image-de-fond.jpg' par le chemin de votre image de fond */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: left;
+    margin: 100px auto;
+    width: 300px;
+    padding: 20px;
+    background-color: #e4d7d7;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(240, 230, 230, 0.1);
+    transition: transform 1s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+form {
+    text-align: left;
+}
+
+.form-group {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #131212;
+    color: red;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #111213;
+}
